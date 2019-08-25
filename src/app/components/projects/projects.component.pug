@@ -1,0 +1,10 @@
+.container
+  .row
+    .col-12.col-sm-6.col-md-4(*ngFor="let project of projects")
+      .card.animated.fadeIn.bg-dark.text-white
+        img.card-img-top(src="{{project.image}}")
+        .card-body
+          .card-title {{project.title}}
+          .card-text {{project.description}}
+          .card-text
+            small.text-muted {{project.date}}

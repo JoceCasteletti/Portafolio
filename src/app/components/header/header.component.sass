@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap')
+
+\:host
+  font-family: 'Livvic', serif
+  display: block
+
+ul
+  width: 100%
+  nav
+    background-color: rgba(0,0,0,0.7)
+
+    .nav-item
+      position: relative
+
+    .nav-item:after
+      transition: all 0.25s
+      border-style: solid
+      border-width: 0
+      content: ""
+      height: 0.25rem
+      position: absolute
+      width: 0
+      border-width: 0
+      z-index: -1
+
+    .nav-item:after
+      border-bottom-width: 0.25rem
+      border-color: #380067
+      bottom: -.5rem
+      right: 0px
+
+    .nav-item:hover:after
+      height: 100%
+      width: 100%
+
+    .active
+      &.nav-item
+        &:after
+          width: 100%

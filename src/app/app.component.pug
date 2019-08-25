@@ -1,1 +1,3 @@
-router-outlet
+app-header
+.main([@routeAnimations]="prepareRoute(outlet)")
+  router-outlet(#outlet="outlet")

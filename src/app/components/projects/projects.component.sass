@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap')
+
+\:host
+  background-color: #380067
+  font-family: 'Livvic', sans-serif
+  overflow: hidden
+  display: block
+  min-height: 100%
+  position: absolute
+  width: 100%
+
+.container
+  padding-top: 4em
+  position: relative
+
+  .cards-columns
+    column-count: 3
+  .card
+    max-width: 300px
+    margin-bottom: 40px
+    box-shadow: 0 0 1rem rgba(255,255,255,.4) !important
+    transition: transform .2s
+
+    &:hover
+      transform: scale(1.1)
+      z-index: 1000
+
+  .animated
+    animation-delay: 1s
+    animation-duration: 0.5s
+    animation-fill-mode: both
+    position: relative
+
+
+@keyframes fadeIn
+  0%
+    opacity: 0
+    left: 300px
+  100%
+    opacity: 1
+    left: 0
+
+.fadeIn
+  -webkit-animation-name: fadeIn
+  animation-name: fadeIn
+
+
+.bg-blur
+  filter: blur(1.3rem)
+  position: absolute
+  width: 100%
+  height: 100%
+  background-color: purple
