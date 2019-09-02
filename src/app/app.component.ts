@@ -24,7 +24,7 @@ import {animate, group, query, style, transition, trigger} from '@angular/animat
   ]
 })
 export class AppComponent {
-  title = 'newportfolio';
+  title = 'portafolio-joce';
 
   prepareRoute(outlet: RouterOutlet) {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
