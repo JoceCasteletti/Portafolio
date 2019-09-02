@@ -7,8 +7,11 @@ import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
   styleUrls: ['./header.component.sass']
 })
 export class HeaderComponent implements OnInit {
+  isCollapsed: boolean;
 
-  constructor(private router: Router, private route: ActivatedRoute) { }
+  constructor(private router: Router, private route: ActivatedRoute) {
+    this.isCollapsed = true;
+   }
 
   ngOnInit() {
     this.router.events

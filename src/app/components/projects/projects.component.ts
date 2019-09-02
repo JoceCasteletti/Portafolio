@@ -11,35 +11,41 @@ export class ProjectsComponent implements OnInit {
   public projects: Project[] = [];
   private projectCollection: Project[] = [
     {
-      image: 'https://dummyimage.com/720x480/000/fff',
+      image: 'https://dummyimage.com/720x480/000/046599',
       title: 'Proyecto 1',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
-      date: new Date()
+      urlDemo: 'https://nic.cl',
+      urlRepo: 'https://nic.cl'
     }, {
-      image: 'https://dummyimage.com/720x480/000/fff',
-      title: 'Proyecto 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
-      date: new Date()
+      image: 'https://dummyimage.com/720x480/886637/046599',
+      title: 'MD Links',
+      description: 'Aplicación para leer links en archivos Markdown.',
+      urlDemo: 'https://nic.cl',
+      urlRepo: 'https://nic.cl'
     }, {
-      image: 'https://dummyimage.com/720x480/000/fff',
+      image: 'https://dummyimage.com/720x480/886637/046599',
       title: 'Proyecto 1',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
-      date: new Date()
+      urlDemo: 'https://nic.cl',
+      urlRepo: 'https://nic.cl'
     }, {
-      image: 'https://dummyimage.com/720x480/000/fff',
+      image: 'https://dummyimage.com/720x480/886637/046599',
       title: 'Proyecto 1',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
-      date: new Date()
+      urlDemo: 'https://nic.cl',
+      urlRepo: 'https://nic.cl'
     }, {
-      image: 'https://dummyimage.com/720x480/000/fff',
+      image: 'https://dummyimage.com/720x480/886637/046599',
       title: 'Proyecto 1',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
-      date: new Date()
+      urlDemo: 'https://nic.cl',
+      urlRepo: 'https://nic.cl'
     }, {
-      image: 'https://dummyimage.com/720x480/000/fff',
+      image: 'https://dummyimage.com/720x480/886637/fff',
       title: 'Proyecto 1',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
-      date: new Date()
+      urlDemo: 'https://nic.cl',
+      urlRepo: 'https://nic.cl'
     },
   ];
 

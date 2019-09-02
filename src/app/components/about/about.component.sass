@@ -8,5 +8,24 @@
   width: 100%
   padding-top: 4rem
 
-.photo
-  max-width: 300px
+.container
+  .photo
+    animation-name: photo
+
+
+  .animated
+    animation-delay: 1s
+    animation-duration: 1s
+    animation-fill-mode: both
+    position: relative
+
+
+@keyframes photo
+  from
+    opacity: 0
+    left: 300px
+    transform: rotate(1rad)
+  to
+    opacity: 1
+    left: 0
+    transform: rotate(0)

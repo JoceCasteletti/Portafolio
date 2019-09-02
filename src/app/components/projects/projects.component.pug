@@ -3,8 +3,14 @@
     .col-12.col-sm-6.col-md-4(*ngFor="let project of projects")
       .card.animated.fadeIn.bg-dark.text-white
         img.card-img-top(src="{{project.image}}")
-        .card-body
+        .card-img-overlay
           .card-title {{project.title}}
           .card-text {{project.description}}
           .card-text
-            small.text-muted {{project.date}}
+            a.btn.btn-info.btn-sm(href="{{project.urlRepo}}" title="Ver demo")
+              fa-icon(icon="globe-americas")
+              | Demo
+            a.btn.btn-info.btn-sm(href="{{project.urlDemo}}" title="Ver código fuente")
+              fa-icon(icon="file-code")
+              | Repositorio
+        .card-title-overlay.text-center {{project.title}}

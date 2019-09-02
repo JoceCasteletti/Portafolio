@@ -15,22 +15,56 @@
 
   .cards-columns
     column-count: 3
+
   .card
-    max-width: 300px
-    margin-bottom: 40px
+    overflow: hidden
+    margin-bottom: 1rem
     box-shadow: 0 0 1rem rgba(255,255,255,.4) !important
     transition: transform .2s
 
     &:hover
-      transform: scale(1.1)
+      transform: scale(0.95)
       z-index: 1000
 
-  .animated
-    animation-delay: 1s
-    animation-duration: 0.5s
-    animation-fill-mode: both
-    position: relative
+      .card-title-overlay
+        animation-name: cardTitle
 
+    .btn
+      margin-top: 0.2rem
+      margin-right: 0.5rem
+
+      fa-icon
+        margin-right: 0.5rem
+
+    .card-title-overlay
+      position: absolute
+      bottom: 0
+      width: 100%
+      background-color: rgba(0, 0, 0, 0.5)
+      animation-duration: 0.2s
+      animation-fill-mode: both
+
+    &.animated
+      animation-delay: 1s
+      animation-duration: 0.5s
+      animation-fill-mode: both
+      position: relative
+
+    .card-img-overlay
+      background-color: rgba(0, 0, 0, 0.5)
+      margin: 0.5rem
+      opacity: 0
+      animation-duration: .6s
+      animation-fill-mode: both
+
+      &:hover
+        animation-name: cardInfo
+
+@keyframes cardInfo
+  from
+    opacity: 0
+  to
+    opacity: 1
 
 @keyframes fadeIn
   0%
@@ -40,8 +74,13 @@
     opacity: 1
     left: 0
 
+@keyframes cardTitle
+  from
+    height: 1rem
+  to
+    height: 0
+
 .fadeIn
-  -webkit-animation-name: fadeIn
   animation-name: fadeIn
 
 

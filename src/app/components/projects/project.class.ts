@@ -2,5 +2,6 @@ export class Project {
   public image: string;
   public title: string;
   public description: string;
-  public date: Date;
+  public urlDemo: string;
+  public urlRepo: string;
 }
