@@ -7,10 +7,10 @@
           .card-title {{project.title}}
           .card-text {{project.description}}
           .card-text
-            a.btn.btn-info.btn-sm(href="{{project.urlRepo}}" title="Ver demo")
+            a.btn.btn-info.btn-sm(href="{{project.urlDemo}}" title="Ver demo")
               fa-icon(icon="globe-americas")
               | Demo
-            a.btn.btn-info.btn-sm(href="{{project.urlDemo}}" title="Ver código fuente")
+            a.btn.btn-info.btn-sm(href="{{project.urlRepo}}" title="Ver código fuente")
               fa-icon(icon="file-code")
               | Repositorio
         .card-title-overlay.text-center {{project.title}}

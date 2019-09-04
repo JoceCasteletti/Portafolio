@@ -11,40 +11,42 @@ export class ProjectsComponent implements OnInit {
   public projects: Project[] = [];
   private projectCollection: Project[] = [
     {
-      image: 'https://dummyimage.com/720x480/000/046599',
-      title: 'Proyecto 1',
+      image: 'src="../../assets/img/mdlinks.png',
+      title: 'Markdown Links',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
-      urlDemo: 'https://nic.cl',
+      urlDemo: 'https://www.npmjs.com/package/@jocecasteletti/md-links',
       urlRepo: 'https://nic.cl'
-    }, {
-      image: 'https://dummyimage.com/720x480/886637/046599',
-      title: 'MD Links',
+    },{
+      image: 'src="../../assets/img/otrasmiradas.png',
+      title: 'Fundación Otras Miradas',
       description: 'Aplicación para leer links en archivos Markdown.',
-      urlDemo: 'https://nic.cl',
+      urlDemo: 'https://otrasmiradas01.firebaseapp.com/home',
+      urlRepo: 'https://nic.cl'
+    },
+    {
+      image: 'src="../../assets/img/maps.png',
+      title: 'Proyecto Maps',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
+      urlDemo: 'https://favorites-maps.firebaseapp.com/',
+      urlRepo: 'https://nic.cl'
+    },
+    {
+      image: 'src="../../assets/img/burgerqueen.png',
+      title: 'Proyecto Burger Queen',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
+      urlDemo: 'https://scl009-burger-queen.firebaseapp.com/',
       urlRepo: 'https://nic.cl'
     }, {
-      image: 'https://dummyimage.com/720x480/886637/046599',
-      title: 'Proyecto 1',
+      image: 'src="../../assets/img/infopokemon.png',
+      title: 'Info Pokemon',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
-      urlDemo: 'https://nic.cl',
+      urlDemo: 'https://jocecasteletti.github.io/SCL009-data-lovers/src/index.html',
       urlRepo: 'https://nic.cl'
     }, {
-      image: 'https://dummyimage.com/720x480/886637/046599',
-      title: 'Proyecto 1',
+      image: 'src="../../assets/img/redsocial.png',
+      title: 'Red social Viajeros Chilenos',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
-      urlDemo: 'https://nic.cl',
-      urlRepo: 'https://nic.cl'
-    }, {
-      image: 'https://dummyimage.com/720x480/886637/046599',
-      title: 'Proyecto 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
-      urlDemo: 'https://nic.cl',
-      urlRepo: 'https://nic.cl'
-    }, {
-      image: 'https://dummyimage.com/720x480/886637/fff',
-      title: 'Proyecto 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
-      urlDemo: 'https://nic.cl',
+      urlDemo: 'https://majomarquez.github.io/SCL009-Social-Network/src/index.html#/home',
       urlRepo: 'https://nic.cl'
     },
   ];
