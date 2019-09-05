@@ -19,7 +19,7 @@ export class ProjectsComponent implements OnInit {
     },{
       image: 'src="../../assets/img/otrasmiradas.png',
       title: 'Fundación Otras Miradas',
-      description: 'Página web diseñada para usuarios reales de la fundación Otras Miradas. Fué desarrollada usando Angular , Firebase y Bootrstap.',
+      description: 'Página web diseñada para usuarios reales de fundación Otras Miradas. Fué desarrollada usando Angular , Firebase y Bootstrap.',
       urlDemo: 'https://otrasmiradas01.firebaseapp.com/home',
       urlRepo: 'https://github.com/JoceCasteletti/SCL009-Otras-Miradas'
     },
