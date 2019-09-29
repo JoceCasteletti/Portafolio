@@ -2,16 +2,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faGlobeAmericas, faFileCode } from '@fortawesome/free-solid-svg-icons';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgxTypedJsModule } from 'ngx-typed-js';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
+
+
 
 @NgModule({
   declarations: [
@@ -27,7 +30,8 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
     AppRoutingModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
-    CollapseModule.forRoot()
+    CollapseModule.forRoot(),
+    NgxTypedJsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
