@@ -1,6 +1,7 @@
 .container-fluid
   nav.navbar.navbar-expand-lg.navbar-dark.fixed-top
-    a.navbar-brand(routerLink="/home") Jocelyn Casteletti
+    a(routerLink="/home")
+      img.icons(src="../../assets/img/logojoce.png" alt="Logo")
     button.navbar-toggler((click)="isCollapsed = !isCollapsed" type='button', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
       span.navbar-toggler-icon
     #navbarNav.collapse.navbar-collapse("[collapse]"="isCollapsed")

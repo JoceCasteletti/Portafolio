@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  hol: string[] = ['hola', `chao`, `ciao`]
+  like: string[] = ['Javascript', `Angular`, `NodeJs`, `Cantar`, `Viajar`,]
 
   constructor() { }
 
